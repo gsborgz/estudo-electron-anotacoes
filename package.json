@@ -1,0 +1,36 @@
+{
+  "name": "anotations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-builder": "^22.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "lodash": "^4.17.15",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11"
+  },
+  "build": {
+    "appId": "estudo-electron-anotacoes",
+    "productName": "Anotações",
+    "directories": {
+      "output": "dist"
+    },
+    "publish": null,
+    "win": {
+      "icon": "icon-1.png",
+      "target": "nsis"
+    }
+  }
+}
